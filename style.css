@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #061928;
+    height: 740px;
+}
+
+
+.navbar-brand {
+    font-size: 50PX;
+    letter-spacing: 4px;
+    font-family: "Audiowide", sans-serif;
+    animation-delay: .1;
+    z-index: 1;
+    position: relative;
+    bottom: 740px;
+    left: 6%;
+}
+
+.dropnav {
+    color: rgb(246, 242, 238);
+    z-index: 1;
+    font-size: 15px;
+    position: relative;
+    bottom: 780px;
+    left: 80%;
+    font-family: "Audiowide", sans-serif;
+
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    font-family: "Audiowide", sans-serif;
+    font-size: medium;
+    color: aliceblue;
+
+}
+
+select option {
+    background: #1a6db1;
+    color: white;
+}
+
+
+.mainpart {
+    color: white;
+    background-color: rgb(62, 110, 152, .2);
+    border-radius: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 23%;
+    height: 300px;
+ 
+ 
+}
+
+.details {
+    margin-top: 2%;
+    margin-left: 13%;
+    font-family: "Audiowide", sans-serif;
+
+ 
+}
+
+td {
+    width: 280px;
+    font-family: "Audiowide", sans-serif;
+
+
+}
+
+.con{
+    margin-left: 30%;
+    margin-top: 6%;
+ 
+}
+
+.button {
+
+    width: 170px;
+    height: 45px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #e52ed9;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+    opacity: 1;
+}
+
+
+.button:hover {
+    background-color: #1498fd;
+    box-shadow: 10px 10px 20px #312e31;
+    color: rgb(51, 49, 49);
+    transform: translateY(-7px);
+}
+
+.getScore {
+    text-shadow: 20px;
+    font-family: "Audiowide", sans-serif;
+     margin-left: 32%;
+      font-size: 25px;
+
+}
+
+ .getScore2{
+    margin-top: 2%;
+    animation-name: zoom;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+   }
+ @keyframes zoom {
+  0%   {transform: scale(1.1, 1.1);  }
+  50%  {transform: scale(1, 1); }
+   100% {transform: scale(1.1, 1.1); }
+
+}
+
+ 
+#starting{
+    margin-left: 18%;
+    justify-content: center;
+    
+}
+.textinput{
+margin-left: 3%;
+margin-top: 5%;
+ }
+.b{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+input{
+    width: 300px;
+    border-bottom-width: 7px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid ;
+	border-left-style: none;
+	border-bottom-color: #e52ed9;
+ }
+.button{
+    margin-left: 15%;
+
+}
+#level{
+    color: #e52ed9;
+}
+#score{
+    color: #e52ed9;
+}
+#sec{
+    color: #e52ed9;
+}
