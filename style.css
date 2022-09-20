@@ -1,30 +1,33 @@
 body {
-    margin: 0;
+    background: url(keyboard.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
-    background: #061928;
     height: 740px;
+
 }
 
 
 .navbar-brand {
-    font-size: 50PX;
+    font-size: 50pX;
     letter-spacing: 4px;
     font-family: "Audiowide", sans-serif;
     animation-delay: .1;
-    z-index: 1;
-    position: relative;
-    bottom: 740px;
-    left: 6%;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 .dropnav {
-    color: rgb(246, 242, 238);
+    color: rgb(238, 239, 240);
+
     z-index: 1;
     font-size: 15px;
-    position: relative;
-    bottom: 780px;
-    left: 80%;
+    float: right;
+    margin-top: 30px;
     font-family: "Audiowide", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
 
 }
 
@@ -33,17 +36,47 @@ select {
     border: none;
     font-family: "Audiowide", sans-serif;
     font-size: medium;
-    color: aliceblue;
+    color: rgb(246, 248, 249);
+    display: flex;
 
 }
 
 select option {
-    background: #1a6db1;
+    background: #0dddc5;
     color: white;
 }
 
+.getScore2{
+    display: flex;
+    justify-content: center;
+}
 
-.mainpart {
+.getScore{
+    animation-name: zoom;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+margin-top: 30px;
+
+   }
+  @keyframes zoom {
+  0%   {transform: translateY(-10px);}
+  50%  {transform: translateY(-50px) ;}
+   100% {transform: translateY(-10px); }
+
+} 
+
+a span:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+
+  div span:nth-child(1) {
+    animation-delay: 0.4s;
+  }
+  div span:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+ 
+/* .mainpart {
     color: white;
     background-color: rgb(62, 110, 152, .2);
     border-radius: 200px;
@@ -112,20 +145,6 @@ td {
 
 }
 
- .getScore2{
-    margin-top: 2%;
-    animation-name: zoom;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-
-
-   }
- @keyframes zoom {
-  0%   {transform: scale(1.1, 1.1);  }
-  50%  {transform: scale(1, 1); }
-   100% {transform: scale(1.1, 1.1); }
-
-}
 
  
 #starting{
@@ -162,4 +181,4 @@ input{
 }
 #sec{
     color: #e52ed9;
-}
+} */
